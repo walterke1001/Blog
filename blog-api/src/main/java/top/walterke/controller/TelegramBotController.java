@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import top.walterke.config.properties.TelegramProperties;
 import top.walterke.constant.CommentConstants;
@@ -21,6 +22,7 @@ import top.walterke.util.telegram.TelegramBotMsgHandler;
 @Slf4j
 @ConditionalOnProperty(name = "comment.notify.channel", havingValue = CommentConstants.TELEGRAM)
 @RestController
+@RequestMapping("/api")
 public class TelegramBotController {
 	@Autowired
 	private TelegramBotMsgHandler msgHandler;

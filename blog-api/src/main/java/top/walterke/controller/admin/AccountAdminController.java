@@ -16,7 +16,7 @@ import top.walterke.service.UserService;
  * @Date: 2023-01-31
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class AccountAdminController {
 	@Autowired
 	UserService userService;

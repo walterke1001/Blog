@@ -24,7 +24,7 @@ import top.walterke.util.StringUtils;
  * @Date: 2020-08-02
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class CategoryAdminController {
 	@Autowired
 	BlogService blogService;

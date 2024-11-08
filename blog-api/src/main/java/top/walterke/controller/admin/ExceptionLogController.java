@@ -18,7 +18,7 @@ import top.walterke.service.ExceptionLogService;
  * @Date: 2020-12-04
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class ExceptionLogController {
 	@Autowired
 	ExceptionLogService exceptionLogService;

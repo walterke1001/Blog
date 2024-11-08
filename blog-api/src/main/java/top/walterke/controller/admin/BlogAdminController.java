@@ -37,7 +37,7 @@ import java.util.Map;
  * @Date: 2020-07-29
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class BlogAdminController {
 	@Autowired
 	BlogService blogService;

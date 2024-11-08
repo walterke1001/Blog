@@ -18,7 +18,7 @@ import java.util.Map;
  * @Date: 2020-09-01
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class AboutAdminController {
 	@Autowired
 	AboutService aboutService;

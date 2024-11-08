@@ -24,7 +24,7 @@ import java.util.Map;
  * @Date: 2020-09-08
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class FriendAdminController {
 	@Autowired
 	FriendService friendService;

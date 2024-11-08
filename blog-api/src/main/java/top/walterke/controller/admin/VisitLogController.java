@@ -19,7 +19,7 @@ import top.walterke.service.VisitLogService;
  * @Date: 2020-12-04
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class VisitLogController {
 	@Autowired
 	VisitLogService visitLogService;

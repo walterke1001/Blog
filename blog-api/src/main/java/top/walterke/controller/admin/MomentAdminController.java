@@ -24,7 +24,7 @@ import java.util.Date;
  * @Date: 2020-08-24
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class MomentAdminController {
 	@Autowired
 	MomentService momentService;

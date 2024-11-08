@@ -19,7 +19,7 @@ import java.util.Date;
  * @Date: 2020-11-01
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class ScheduleJobController {
 	@Autowired
 	private ScheduleJobService scheduleJobService;

@@ -18,7 +18,7 @@ import top.walterke.service.LoginLogService;
  * @Date: 2020-12-03
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class LoginLogController {
 	@Autowired
 	LoginLogService loginLogService;

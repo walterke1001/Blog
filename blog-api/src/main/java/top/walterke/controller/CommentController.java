@@ -3,12 +3,7 @@ package top.walterke.controller;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import top.walterke.annotation.AccessLimit;
 import top.walterke.constant.JwtConstants;
 import top.walterke.entity.User;
@@ -33,6 +28,7 @@ import java.util.Map;
  * @Date: 2020-08-15
  */
 @RestController
+@RequestMapping("/api")
 public class CommentController {
 	@Autowired
 	CommentService commentService;

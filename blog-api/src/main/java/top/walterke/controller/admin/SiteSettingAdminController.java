@@ -21,7 +21,7 @@ import java.util.Map;
  * @Date: 2020-08-09
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class SiteSettingAdminController {
 	@Autowired
 	SiteSettingService siteSettingService;

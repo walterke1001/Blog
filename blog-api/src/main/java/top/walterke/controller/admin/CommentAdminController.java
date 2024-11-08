@@ -26,7 +26,7 @@ import java.util.List;
  * @Date: 2020-08-03
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class CommentAdminController {
 	@Autowired
 	CommentService commentService;

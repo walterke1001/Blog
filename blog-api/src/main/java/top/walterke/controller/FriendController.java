@@ -1,10 +1,7 @@
 package top.walterke.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import top.walterke.annotation.VisitLogger;
 import top.walterke.enums.VisitBehavior;
 import top.walterke.model.vo.Friend;
@@ -22,6 +19,7 @@ import java.util.Map;
  * @Date: 2020-09-08
  */
 @RestController
+@RequestMapping("/api")
 public class FriendController {
 	@Autowired
 	FriendService friendService;

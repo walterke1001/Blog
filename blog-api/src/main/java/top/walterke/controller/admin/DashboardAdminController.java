@@ -20,7 +20,7 @@ import java.util.Map;
  * @Date: 2020-10-08
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class DashboardAdminController {
 	@Autowired
 	DashboardService dashboardService;

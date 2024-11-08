@@ -18,7 +18,7 @@ import top.walterke.service.VisitorService;
  * @Date: 2021-02-02
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class VisitorAdminController {
 	@Autowired
 	VisitorService visitorService;

@@ -18,7 +18,7 @@ import top.walterke.service.OperationLogService;
  * @Date: 2020-12-01
  */
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/api/admin")
 public class OperationLogController {
 	@Autowired
 	OperationLogService operationLogService;
